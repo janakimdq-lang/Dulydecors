@@ -89,6 +89,7 @@ img { max-width: 100%; display: block; }
     padding: 14px 0;
     box-shadow: 0 4px 30px rgba(0,0,0,0.18);
 }
+.nav-logo-img { height: 40px; width: auto; }
 .nav-logo {
     font-family: 'Playfair Display', serif;
     font-size: 1.65rem; font-weight: 700;
@@ -833,4 +834,26 @@ textarea.form-control { resize: vertical; min-height: 130px; }
     to   { opacity: 1; transform: translateY(0); }
 }
 
-
+.service-points {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.service-points li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #555;
+}
+.service-points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #C9A84C;
+}
